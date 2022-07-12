@@ -2,8 +2,8 @@ package com.bridgelabz;
 
 public class EmployeeWage {
 	
-	public static void main(String args[]) {
-		
+	public static void calculateTotalWage()
+    {
         final int PART_TIME = 1;
         final int FULL_TIME = 2;
         final int WAGE_PER_HR = 20;
@@ -35,5 +35,10 @@ public class EmployeeWage {
             System.out.println("Employee Daily wages is as per working hour "+workingHrs+ "  Wage  " + wage);
         }
         System.out.println("Total wage for a month is " + totalWage);
+    }
+
+    public static void main(String args[])
+    {
+        calculateTotalWage();
     }
 }
