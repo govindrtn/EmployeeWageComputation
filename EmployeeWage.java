@@ -32,6 +32,7 @@ public class EmployeeWage {
             }
             int wage = workingHrs * WAGE_PER_HR;
             totalWage += wage;
+            System.out.println("Employee Daily wages is as per working hour "+workingHrs+ "  Wage  " + wage);
         }
         System.out.println("Total wage for a month is " + totalWage);
     }
